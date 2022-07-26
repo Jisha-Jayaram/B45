@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="Failed suite [Suite]">
-  <test thread-count="5" parallel="tests" name="QA(failed)">
-    <parameter name="property" value="config.properties"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="script.TestClass2">
+      <class name="script.InvalidLogin">
         <methods>
           <include name="createReport"/>
           <include name="openApp"/>
-          <include name="testLogin"/>
+          <include name="testInValidLogin"/>
           <include name="publishReport"/>
           <include name="closeApp"/>
         </methods>
-      </class> <!-- script.TestClass2 -->
+      </class> <!-- script.InvalidLogin -->
     </classes>
-  </test> <!-- QA(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
