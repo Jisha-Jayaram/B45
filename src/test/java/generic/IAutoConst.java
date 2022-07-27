@@ -12,5 +12,5 @@ public interface IAutoConst {
  String SCREENSHOT_FOLDER="./screenshot/";
  String IMAGE_FORMAT =".png";
  String SCREENSHOT_FOLDER_FOR_REPORT="./../screenshot/";
- String INPUTXL_PATH="./data/Invaliddata.xlsx";
+ String INPUTXL_PATH="./data/input.xlsx";
 }
