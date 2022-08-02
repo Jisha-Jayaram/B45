@@ -78,7 +78,7 @@ public class BaseTest implements IAutoConst{
 		}
 		else
 		{
-			if(browser.equals("chrome"))
+			if(browser.equalsIgnoreCase("chrome"))
 			{
 				WebDriverManager.chromedriver().setup();
 				String path=System.getProperty(CHROME_KEY);
