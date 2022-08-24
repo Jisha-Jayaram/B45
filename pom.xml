@@ -61,5 +61,6 @@
 	    <artifactId>extentreports</artifactId>
 	    <version>LATEST</version>
 	</dependency>
+
   </dependencies>
 </project>
